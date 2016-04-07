@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reality-Modeller</string>
+    <string name="scanBtn">Сканировать</string>
+    <string name="error">Ошибка!</string>
+    <string name="alreadyScanned">Уже сканировано</string>
+    <string name="scanInstruction">Наведите камеру на штрих-код по горизонтали или вертикали</string>
+    <string name="getBarcode">Штрих-код: %1$s</string>
+    <string name="back_button">Назад</string>
+    <string name="results">Результаты</string>
+    <string name="modeller">Моделлер</string>
+    <string name="item_in">Поступление</string>
+    <string name="item_out">Расход</string>
+    <string name="inventory_button">Инвентаризация</string>
+    <string name="item_info">Информация по товару</string>
+    <string name="pick_button">Подбор по ШК</string>
+    <string name="settings_button">Настройки</string>
+    <string name="close_button">Выход</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:visibility="visible" style="@android:style/Widget.ImageWell">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/realityLogo"
+			android:longClickable="true"
+            android:src="@drawable/reality_2"
+			android:layout_margin="10dip"/>
+
+	<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/scanBtn"
+			android:id="@+id/buttonScan"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginLeft="10dip"
+			android:layout_marginTop="50dip"
+			android:layout_marginRight="10dip"
+			android:background="@drawable/rounded_button"
+			android:clickable="true"
+			android:gravity="center"
+			android:padding="0dip"
+			android:singleLine="false"
+			android:textSize="22dip"
+			android:typeface="monospace"
+			android:visibility="visible"
+			android:width="@android:dimen/app_icon_size"
+			android:textStyle="bold"
+			android:layout_marginBottom="20dip"
+			/>
+
+	<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="New Button"
+			android:id="@+id/button"
+			android:layout_gravity="bottom"
+			android:clickable="true"
+			android:gravity="bottom"
+			android:visibility="invisible"/>
+
+	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/results"
+			android:id="@+id/result"
+			android:gravity="center"
+			android:layout_marginTop="10dip"
+			android:singleLine="true"/>
+
+	<ListView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/scannedBarcodesList"
+			android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
